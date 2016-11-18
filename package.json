@@ -1,0 +1,24 @@
+{
+  "name": "cygni_frontend_recruitment",
+  "version": "1.0.0",
+  "author": "Cygni",
+  "homepage": "http://www.cygni.se",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cygni/cygni-rekrytering-frontend.git"
+  },
+
+  "dependencies": {
+    "http-server": "^0.8.5",
+    "livereload": "^0.3.7",
+    "npm-run-all": "^1.2.11"
+  },
+
+  "scripts": {
+    "server:livereload": "livereload ./app -i 200",
+    "server:serve": "http-server ./app -p 8080",
+    "prestart": "npm install",
+    "start": "npm-run-all --parallel server:*"
+  }
+}
