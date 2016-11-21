@@ -7,7 +7,8 @@ describe('Images', () => {
         {id: 1, owner:12334, secret:23131231, server:21312, farm: 6, title: '2342342', ispublic: 1, isfirend:0, isfamily: 0}
     ];
 
-    it('should return an empty array for state by default', () => [
-
-    ])
+    it('should return an empty array for state by default', () => {
+        const result = images(undefined, {type:'random', payload{}});
+        expect(result).toEqual([])
+    });
 })

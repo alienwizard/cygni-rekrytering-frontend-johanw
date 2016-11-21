@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 
 module.exports = {
-    devtool: 'source-map',
+    devtool: 'inline-source-map',
     entry: ['bootstrap-loader','./app/app.js'],
     output: {
         filename: 'bundle.js'
@@ -50,6 +50,7 @@ module.exports = {
         new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery"
-        })
+        }),
+
     ]
 }

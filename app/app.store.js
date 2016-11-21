@@ -1,7 +1,6 @@
 //////////////////////////////////////////////////////////
 // Store handling for our apps states
 //////////////////////////////////////////////////////////
-
 class Store{
     constructor(reducer, initialState){
         this.reducer = reducer
@@ -9,6 +8,7 @@ class Store{
         this.listeners = [];
     }
 
+    //get the current state
     getState() {
         return this.state;
     }

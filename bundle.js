@@ -45,7 +45,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(1);
-	module.exports = __webpack_require__(26);
+	(function webpackMissingModule() { throw new Error("Cannot find module \"./app/app.js\""); }());
 
 
 /***/ },
@@ -13116,12 +13116,6 @@
 	}(jQuery);
 	
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(14)))
-
-/***/ },
-/* 26 */
-/***/ function(module, exports) {
-
-
 
 /***/ }
 /******/ ]);
