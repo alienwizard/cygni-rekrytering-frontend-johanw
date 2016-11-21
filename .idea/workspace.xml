@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c16fdc5-7177-4b3e-aca6-7c2ccb569eb7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.html" afterPath="$PROJECT_DIR$/app/app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.scss" afterPath="$PROJECT_DIR$/app/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/images/images-item/images-item.html" afterPath="$PROJECT_DIR$/app/components/images/images-item/images-item.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/images/images-item/images-item.js" afterPath="$PROJECT_DIR$/app/components/images/images-item/images-item.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/images/images-item/images-item.scss" afterPath="$PROJECT_DIR$/app/components/images/images-item/images-item.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/images/images.html" afterPath="$PROJECT_DIR$/app/components/images/images.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/images/images.js" afterPath="$PROJECT_DIR$/app/components/images/images.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/images/images.scss" afterPath="$PROJECT_DIR$/app/components/images/images.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/images/_responsive.images.scss" afterPath="$PROJECT_DIR$/app/components/images/_responsive.images.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/images/images.state.js" afterPath="$PROJECT_DIR$/app/components/images/images.state.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -53,8 +44,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="69">
+              <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_responsive.images.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/components/images/_responsive.images.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
@@ -115,8 +116,8 @@
       <file leaf-file-name="images.state.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/images/images.state.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="45" column="169" lean-forward="false" selection-start-line="45" selection-start-column="169" selection-end-line="45" selection-end-column="169" />
+            <state relative-caret-position="225">
+              <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -129,16 +130,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="23" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="images.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/images/images.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="57" column="19" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -163,9 +154,7 @@
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/app/components/components.js" />
         <option value="$PROJECT_DIR$/app/app.store.js" />
-        <option value="$PROJECT_DIR$/app/components/images/_responsive.images.scss" />
         <option value="$PROJECT_DIR$/app/components/images/_buttons.images.scss" />
-        <option value="$PROJECT_DIR$/app/components/images/images.state.js" />
         <option value="$PROJECT_DIR$/app/app.html" />
         <option value="$PROJECT_DIR$/app/components/images/images-item/images-item.html" />
         <option value="$PROJECT_DIR$/app/components/images/images-item/images-item.js" />
@@ -173,12 +162,14 @@
         <option value="$PROJECT_DIR$/app/components/images/images-item/images-item.scss" />
         <option value="$PROJECT_DIR$/app/components/images/images.scss" />
         <option value="$PROJECT_DIR$/app/components/images/images.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/components/images/images.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/components/images/images.state.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/components/images/_responsive.images.scss" />
       </list>
     </option>
   </component>
@@ -393,12 +384,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479659106559</updated>
-      <workItem from="1479659108155" duration="50510000" />
+      <workItem from="1479659108155" duration="51230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50510000" />
+    <option name="totallyTimeSpent" value="51230000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,14 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/images/_responsive.images.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/images/images.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -625,14 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.production.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -656,16 +631,6 @@
         <state relative-caret-position="275">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="23" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/images/images.state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="45" column="169" lean-forward="false" selection-start-line="45" selection-start-column="169" selection-end-line="45" selection-end-column="169" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,6 +675,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/images/images.state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/images/_responsive.images.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

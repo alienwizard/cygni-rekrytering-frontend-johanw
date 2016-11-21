@@ -1,7 +1,23 @@
-@media (max-width: 750px){
+@media (max-width: 800px){
+
+  .dino-title{
+    font-size: calc(1.4rem + 5vw);
+  }
   .dino-grid {
     .dino-item {
       width: 50%;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .dino-title{
+
+    font-size: calc(1.4rem + 9vw);
+  }
+  .dino-grid {
+    .dino-item {
+      width: 100%;
     }
   }
 }

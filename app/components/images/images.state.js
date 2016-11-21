@@ -25,6 +25,7 @@ const URLS = {
 
 //Funktion över alla våra möjliga händelser
 //Använder ngInject för att se till att beroenden laddas in korrekt
+//TODO ändra API-förfrågan för mobilversioner (färre bilder)
 export const ImageActions = ($http, $q) => {
     'ngInject';
 
