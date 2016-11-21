@@ -1,0 +1,9 @@
+.nav-button{
+  cursor: pointer;
+  background: none;
+  border:none;
+  
+  &:hover{
+    color: yellow;
+  }
+}

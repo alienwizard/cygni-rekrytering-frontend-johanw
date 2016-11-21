@@ -10,15 +10,13 @@ import { ImageActions } from './images.state'
 //////////////////////////////////////////////////////////
 
 class ImagesController {
+
     constructor($ngRedux, ImageActions) {
         'ngInject'
 
         this.store = $ngRedux;
         this.ImageActions = ImageActions;
         this.test = 'test';
-
-
-
     }
 
     //Angularevenet som triggas när componenten skapas
@@ -26,22 +24,38 @@ class ImagesController {
 
     $onInit() {
         const actions = Object.assign({}, this.ImageActions)
-
         this.store.connect(this.mapStateToThis, actions)(this);
-
         //vår action vi definerade i .state
         this.getImages();
 
-
     }
 
-    //Mapping states to the controller from the store här kan vi hantera data
-    mapStateToThis(state){
+    //Gör vår state tillgänglig i vår view genom vår controller
+    mapStateToThis(state) {
         console.log(state.images.photos);
         return {
             images: state.images.photos,
         }
     }
+
+    //Get the next page
+    //all logik hanteras i vår action i redux
+    nextPage(currentPage) {
+        this.getNextPage()
+        //this.nextPage()
+    }
+
+    //get the previous page
+    //all logik hanteras i vår action i redux
+    prevPage(){
+        this.getPrevPage()
+
+    }
+
+    //handler for selected image
+    onImageSelected(){}
+
+
 }
 
 const ImagesComponent = {

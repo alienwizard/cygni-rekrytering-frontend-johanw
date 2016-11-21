@@ -1,0 +1,59 @@
+//Fonts
+$title-font: 'Ravi Prakash', cursive;
+$title-font2: 'Bungee Inline', cursive;
+$standard-font: 'Roboto', sans-serif;
+
+@import 'buttons.images';
+
+
+.dino-title {
+  text-transform: uppercase;
+  font-size: 82px;
+  padding-top: 15px;
+  /* line-height: 91px; */
+  text-orientation: initial;
+  background-color: black;
+  color: white;
+  /* text-shadow: #444444 10px 20px 10px; */
+  text-align: center;
+  font-family: "Ravi Prakash", cursive;
+  border: 4px solid yellow;
+}
+
+
+.dino-grid {
+
+
+
+  .dino-item {
+
+    width: 25%;
+    float: left;
+    height: 250px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+
+    &:hover{
+      &:before{
+        opacity: 1;
+        content: "";
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left:0px;
+        right: 0px;
+      }
+      
+    }
+
+    .imageItem {
+      height: 100%;
+      width: 100%;
+      background-position: center top;
+    }
+
+  }
+}
+
+@import 'responsive.images';

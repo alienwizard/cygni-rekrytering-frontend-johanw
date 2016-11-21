@@ -1,12 +1,14 @@
-<h1>Dinoriffic</h1>
-{{ImagesGridCtrl.test}}
+<h1 class="dino-title"><button class="nav-button" ng-click="ImagesGridCtrl.prevPage()"><span class="glyphicon glyphicon-menu-left"></span> </button>The Jurassic Age <button class="nav-button" ng-click="ImagesGridCtrl.nextPage()"><span class="glyphicon glyphicon-menu-right"></span></button></h1>
+
+
+
 <div class="dino-grid">
     <div class="dino-item"
          ng-repeat="image in ImagesGridCtrl.images.photo">
-        <h1>test</h1>
-        <images-item image="image" >
+        <image-Item image="image" >
 
-        </images-item>
+        </image-Item>
 
     </div>
+    <button ng-click="ImagesGridCtrl.nextPage(ImagesGridCtrl.images.page)">Ladda mer bilder</button>
 </div>
