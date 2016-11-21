@@ -74,3 +74,4 @@ let appModule = angular.module('app', [
 ;
 
 export default appModule;
+

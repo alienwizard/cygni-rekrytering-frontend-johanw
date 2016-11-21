@@ -1,5 +1,17 @@
 body{
 background: linear-gradient( 0deg, yellow, #e62617 100%);
+  min-height:100vh;
+  background-size:cover;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.big-container{
+  max-width: 1900px;
+  width:95%;
+  margin: auto;
 }
 
 .mountain{

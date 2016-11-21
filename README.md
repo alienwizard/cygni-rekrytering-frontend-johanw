@@ -41,3 +41,23 @@ npm start
 ```
 
 Lycka till! 👍
+
+
+##Johans Anteckningar!
+
+Jag har gjort om en del och gått min egen väg kan man säga när det kommer till appen.
+Den är byggd med Angular och redux som ett state based pattern. Alla states, reducers och actions finns definerade i images.state,js
+
+kör install för att installera alla dependecies
+
+```
+npm install
+```
+
+och sedan start för att starta webpacks devserver som man sedan kommer åt på http://localhost:8080/
+
+```
+npm start
+```
+
+

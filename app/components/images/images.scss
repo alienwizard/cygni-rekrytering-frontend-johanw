@@ -5,6 +5,25 @@ $standard-font: 'Roboto', sans-serif;
 
 @import 'buttons.images';
 
+.fixed{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  right: 0px;
+  margin: auto;
+
+  .dino-title {
+
+  }
+
+
+  .dino-grid{
+    margin-top: 110px;
+  }
+
+
+}
 
 .dino-title {
   text-transform: uppercase;
@@ -18,10 +37,26 @@ $standard-font: 'Roboto', sans-serif;
   text-align: center;
   font-family: "Ravi Prakash", cursive;
   border: 4px solid yellow;
+
+  transition: 1s ease all;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  right: 0px;
+  margin: auto;
+
+
+}
+
+.dino-title.fixed {
+  font-size: 60px;
 }
 
 
 .dino-grid {
+  margin-top: 110px;
+  width:100%;
 
 
 
@@ -29,7 +64,6 @@ $standard-font: 'Roboto', sans-serif;
 
     width: 25%;
     float: left;
-    height: 250px;
     overflow: hidden;
     cursor: pointer;
     position: relative;
@@ -47,11 +81,7 @@ $standard-font: 'Roboto', sans-serif;
       
     }
 
-    .imageItem {
-      height: 100%;
-      width: 100%;
-      background-position: center top;
-    }
+
 
   }
 }

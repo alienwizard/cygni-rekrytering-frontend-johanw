@@ -43,7 +43,7 @@ export const ImageActions = ($http, $q) => {
 
             //om vi inte har cachade bilder så kör en ny GET till API
             }else{
-                return $http.get('https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=e57f52bb5ed3d0a7d33519e8b354799a&tags=dinosaurs&safe_search=2&sort=relevance&media=photos&format=json&nojsoncallback=1&per_page=50&page='+page+'')
+                return $http.get('https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=e57f52bb5ed3d0a7d33519e8b354799a&tags=dinosaurs&safe_search=1&sort=relevance&media=photos&format=json&nojsoncallback=1&per_page=50&page='+page+'')
                     .then(extract)
                     .then(data => dispatch({type: GET_IMAGES, payload: data}))
 
@@ -90,7 +90,7 @@ export const ImageActions = ($http, $q) => {
             if(currentpage == 1){
                 console.log('You are at first page');
             }else {
-                return $http.get('https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=e57f52bb5ed3d0a7d33519e8b354799a&tags=dinosaurs&safe_search=1&safe_search=2&sort=relevance&media=photos&format=json&nojsoncallback=1&per_page=50&page=' + nextPage + '')
+                return $http.get('https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=e57f52bb5ed3d0a7d33519e8b354799a&tags=dinosaurs&safe_search=1&safe_search=1&sort=relevance&media=photos&format=json&nojsoncallback=1&per_page=50&page=' + nextPage + '')
                     .then(extract)
                     .then(data => dispatch({type: GET_NEXT_PAGE, payload: data}))
 

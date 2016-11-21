@@ -1,14 +1,27 @@
-<h1 class="dino-title"><button class="nav-button" ng-click="ImagesGridCtrl.prevPage()"><span class="glyphicon glyphicon-menu-left"></span> </button>The Jurassic Age <button class="nav-button" ng-click="ImagesGridCtrl.nextPage()"><span class="glyphicon glyphicon-menu-right"></span></button></h1>
+<h1 class="dino-title" ng-class="{fixed:boolChangeClass}" scroll-position="scroll">
+    <button class="nav-button" ng-click="ImagesGridCtrl.prevPage()" tabindex="0" aria-label="Previous page navigation">
+        <span class="hidden">Previous page</span>
+        <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+    </button>
+    The Jurassic Age
+    <button class="nav-button" ng-click="ImagesGridCtrl.nextPage()" tabindex="1" aria-label="Next page navigation">
+        <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+    </button>
+</h1>
+
 
 
 
 <div class="dino-grid">
-    <div class="dino-item"
-         ng-repeat="image in ImagesGridCtrl.images.photo">
-        <image-Item image="image" >
+    <div class="row">
 
-        </image-Item>
+        <div class="dino-item image-height"
+             ng-repeat="image in ImagesGridCtrl.images.photo">
+            <image-Item image="image" >
+
+            </image-Item>
+
+        </div>
 
     </div>
-    <button ng-click="ImagesGridCtrl.nextPage(ImagesGridCtrl.images.page)">Ladda mer bilder</button>
 </div>
