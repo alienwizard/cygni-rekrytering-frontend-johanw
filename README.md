@@ -1,5 +1,7 @@
 # Hemuppgift - frontend
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/alienwizard/cygni-rekrytering-frontend-johanw.svg)](https://greenkeeper.io/)
+
 ## Uppgift: Skapa ett bildgalleri med bilder hämtade från flickr
 
 Uppgiften går ut på att koda en webbapplikation som hämtar data ifrån flickrs publika API och visar upp resultatet på en webbsida. Det kan till exempel vara bilder på en seriefigur. Har du idétorka, välj Batman.
